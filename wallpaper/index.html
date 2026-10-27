@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Papel de parede com QR</title>
+<link rel="stylesheet" href="../fonts.css">
+<style>
+:root{--navy:#13233F;--on-navy:#F3F4F6;--gold:#B8893A;--gold-light:#D9B46C;--header-sub:#C9D0DC}
+html,body{margin:0;height:100%;background:var(--navy)}
+.wp{position:relative;overflow:hidden;width:100vw;height:100vh;height:100dvh;min-height:100%;background:var(--navy);color:var(--on-navy);font-family:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif}
+.arches{position:absolute;inset:0;width:100%;height:100%}
+.stack{position:absolute;left:0;right:0;top:372px;display:flex;flex-direction:column;align-items:center;gap:18px}
+.qr{padding:12px;background:#FFF;border-radius:2px}
+.qr img{display:block;width:184px;height:184px}
+.eyebrow{margin:0;font-size:12px;line-height:16px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}
+.stack .scan{margin-top:6px;color:var(--gold-light)}
+.name{margin:0;font-family:'Libre Caslon Display',Georgia,serif;font-weight:400;font-size:44px;line-height:44px;color:var(--on-navy)}
+.rule{width:48px;height:2px;background:var(--gold)}
+.place{color:var(--header-sub)}
+</style>
+</head>
+<body>
+<div class="wp">
+  <svg class="arches" aria-hidden="true" viewBox="0 0 390 844" preserveAspectRatio="xMidYMax slice">
+    <g fill="none" stroke="#B8893A" stroke-width="3" opacity="0.28">
+      <path d="M55 844 V330 A140 140 0 0 1 335 330 V844"/>
+      <path d="M90 844 V330 A105 105 0 0 1 300 330 V844"/>
+      <path d="M125 844 V330 A70 70 0 0 1 265 330 V844"/>
+      <path d="M160 844 V330 A35 35 0 0 1 230 330 V844"/>
+    </g>
+  </svg>
+  <div class="stack">
+    <div class="qr"><img src="qr-geovani.svg" alt="QR code para o cartão digital de Geovani Gisler"></div>
+    <p class="eyebrow scan">Escaneie para salvar meu contato</p>
+    <p class="name">Geovani Gisler</p>
+    <div class="rule"></div>
+    <p class="eyebrow place">Santo Ângelo · Missões · RS</p>
+  </div>
+</div>
+</body>
+</html>
